@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Do Campo à Mesa: A Jornada do Morango</title>
-      <link rel="icon" href="morango.png">
+    <title>Fome Zero: Soluções Sustentáveis</title>
+    <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/3050/3050209.png">
     <style>
         * {
             box-sizing: border-box;
@@ -12,7 +12,7 @@
         }
         
         body {
-            background-color: #fce4ec;
+            background-color: #f5f5dc;
             margin: 0;
             padding: 0;
             color: #333;
@@ -26,7 +26,7 @@
         }
         
         header {
-            background-color: #e91e63;
+            background-color: #2e7d32;
             color: white;
             padding: 30px 0;
             text-align: center;
@@ -39,7 +39,7 @@
             font-size: 2.5rem;
         }
         
-        .strawberry-icon {
+        .food-icon {
             font-size: 3rem;
             margin-bottom: 15px;
             display: block;
@@ -54,7 +54,7 @@
         }
         
         .intro h2 {
-            color: #e91e63;
+            color: #2e7d32;
             margin-top: 0;
         }
         
@@ -78,7 +78,7 @@
         
         .terminal-title {
             font-weight: bold;
-            color: #FF7043;
+            color: #81C784;
         }
         
         .terminal-controls span {
@@ -113,7 +113,7 @@
         }
         
         .prompt {
-            color: #69F0AE;
+            color: #81C784;
             margin-right: 10px;
         }
         
@@ -147,13 +147,13 @@
         }
         
         .site-card h3 {
-            color: #e91e63;
+            color: #2e7d32;
             margin-top: 0;
         }
         
         .site-card a {
             display: inline-block;
-            background-color: #e91e63;
+            background-color: #2e7d32;
             color: white;
             padding: 10px 20px;
             border-radius: 5px;
@@ -163,7 +163,7 @@
         }
         
         .site-card a:hover {
-            background-color: #c2185b;
+            background-color: #1b5e20;
             transform: translateY(-2px);
         }
         
@@ -174,6 +174,27 @@
             color: #666;
         }
         
+        .statistics {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+        
+        .stat-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            width: 48%;
+            margin-bottom: 15px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .stat-card h4 {
+            color: #2e7d32;
+            margin-top: 0;
+        }
+        
         @media (max-width: 600px) {
             h1 {
                 font-size: 2rem;
@@ -182,31 +203,48 @@
             .terminal {
                 padding: 15px;
             }
+            
+            .stat-card {
+                width: 100%;
+            }
         }
     </style>
 </head>
 <body>
     <header>
         <div class="container">
-            <span class="strawberry-icon">🍓</span>
-            <h1>Do Campo à Mesa: A Jornada do Morango </h1>
-            <p>Tudo sobre o fruto mais vermelho e suculento!</p>
+            <span class="food-icon">🍽️</span>
+            <h1>Fome Zero: Soluções Sustentáveis</h1>
+            <p>Combate à fome e promoção da segurança alimentar</p>
         </div>
     </header>
     
     <div class="container">
         <div class="intro">
-            <h2>Conheça o Morango</h2>
-            <p>O morango (Fragaria × ananassa) é uma fruta vermelha, suculenta e aromática, muito apreciada em todo o mundo. Originário da Europa, o morango moderno é resultado de cruzamentos entre espécies americanas e europeias no século XVIII.</p>
+            <h2>O Problema da Fome no Mundo</h2>
+            <p>A fome é um dos maiores desafios globais do nosso tempo. Segundo a ONU, mais de 800 milhões de pessoas passam fome no mundo, enquanto cerca de 1/3 de todos os alimentos produzidos são desperdiçados.</p>
             
-            <p>Rico em vitamina C, flavonoides e antioxidantes, o morango oferece diversos benefícios à saúde, incluindo fortalecimento do sistema imunológico e ação anti-inflamatória. Além disso, é versátil na culinária, podendo ser consumido fresco, em doces, geleias, sorvetes e diversas outras preparações.</p>
+            <p>No Brasil, segundo dados do IBGE, mais de 10 milhões de pessoas vivem em situação de insegurança alimentar grave. Esse problema é resultado de uma combinação complexa de fatores, incluindo desigualdade social, má distribuição de renda, desperdício de alimentos e sistemas agrícolas insustentáveis.</p>
             
-            <p>No Brasil, os maiores produtores estão nas regiões sul e sudeste, com destaque para Minas Gerais, Rio Grande do Sul e São Paulo. A colheita ocorre principalmente entre agosto e novembro.</p>
+            <div class="statistics">
+                <div class="stat-card">
+                    <h4>Dados Globais</h4>
+                    <p>🌍 828 milhões passam fome no mundo</p>
+                    <p>🍞 1/3 dos alimentos é desperdiçado</p>
+                    <p>💧 70% da água doce é usada na agricultura</p>
+                </div>
+                <div class="stat-card">
+                    <h4>Realidade Brasileira</h4>
+                    <p>🇧🇷 10,3 milhões em insegurança alimentar grave</p>
+                    <p>🏙️ 20% das famílias urbanas sem comida suficiente</p>
+                    <p>🗑️ 27 milhões de toneladas de alimentos desperdiçados/ano</p>
+                </div>
+            </div>
         </div>
         
         <div class="terminal">
             <div class="terminal-header">
-                <div class="terminal-title">Terminal de Navegação - Morangos</div>
+                <div class="terminal-title">Terminal de Soluções - Fome Zero</div>
                 <div class="terminal-controls">
                     <span class="close"></span>
                     <span class="minimize"></span>
@@ -214,16 +252,17 @@
                 </div>
             </div>
             <div class="terminal-body" id="terminal-output">
-                <div>Bem-vindo ao Terminal de Navegação sobre Morangos!</div>
+                <div>Bem-vindo ao Terminal de Soluções para Combate à Fome!</div>
                 <div>Digite um dos seguintes comandos para acessar informações:</div>
                 <br>
-                <div>- <strong>cultivo</strong>: Técnicas de cultivo de morangos</div>
-                <div>- <strong>receitas</strong>: Receitas deliciosas com morango</div>
-                <div>- <strong>beneficios</strong>: Benefícios para a saúde</div>
-                <div>- <strong>variedades</strong>: Tipos de morango</div>
+                <div>- <strong>agricultura</strong>: Agricultura sustentável e familiar</div>
+                <div>- <strong>desperdicio</strong>: Combate ao desperdício de alimentos</div>
+                <div>- <strong>tecnologia</strong>: Inovações tecnológicas</div>
+                <div>- <strong>politicas</strong>: Políticas públicas eficazes</div>
+                <div>- <strong>educacao</strong>: Educação alimentar e nutricional</div>
                 <div>- <strong>limpar</strong>: Limpa o terminal</div>
                 <br>
-                <div>Exemplo: <span style="color: #69F0AE;">></span> receitas</div>
+                <div>Exemplo: <span style="color: #81C784;">></span> agricultura</div>
             </div>
             <div class="command-line">
                 <span class="prompt">></span>
@@ -231,57 +270,101 @@
             </div>
         </div>
         
-        <div class="site-card" id="cultivo-card">
-            <h3>Técnicas de Cultivo de Morango</h3>
-            <p>Aprenda as melhores práticas para cultivar morangos em casa ou em escala comercial. O cultivo de morangos requer cuidados específicos com solo, irrigação e controle de pragas.</p>
-            <p>Os morangos preferem solos bem drenados, ricos em matéria orgânica, com pH entre 5,5 e 6,5. A exposição solar deve ser de pelo menos 6 horas diárias.</p>
-            <a href="https://isaa22.github.io/agrinhoisa/" target="_blank">Acesse a Embrapa Morango</a>
+        <div class="site-card" id="agricultura-card">
+            <h3>Agricultura Sustentável e Familiar</h3>
+            <p>A agricultura familiar produz 70% dos alimentos consumidos no Brasil, porém enfrenta desafios como acesso à terra, crédito e tecnologia. Soluções:</p>
+            <ul>
+                <li>Fortalecimento da agricultura familiar com políticas públicas</li>
+                <li>Agroecologia e práticas sustentáveis</li>
+                <li>Circuitos curtos de comercialização (feiras diretas)</li>
+                <li>Cooperativas agrícolas</li>
+                <li>Uso eficiente de água e solo</li>
+            </ul>
+            <a href="https://www.fao.org/family-farming/en/" target="_blank">Saiba mais sobre agricultura familiar</a>
         </div>
         
-        <div class="site-card" id="receitas-card">
-            <h3>Receitas com Morango</h3>
-            <p>Descubra receitas incríveis para aproveitar os morangos na culinária. Desde sobremesas clássicas até pratos inovadores que combinam doce e salgado.</p>
-            <p>Algumas sugestões: torta de morango, mousse, geleia, sorvete, salada com folhas verdes, molho agridoce para carnes e drinks refrescantes.</p>
-            <a href="https://isaa22.github.io/agrinhoisa/" target="_blank">Receitas no TudoGostoso</a>
+        <div class="site-card" id="desperdicio-card">
+            <h3>Combate ao Desperdício de Alimentos</h3>
+            <p>No Brasil, 27 milhões de toneladas de alimentos são desperdiçadas anualmente, enquanto milhões passam fome. Estratégias eficazes:</p>
+            <ul>
+                <li>Banco de alimentos e colheitas urbanas</li>
+                <li>Melhorias na logística e armazenamento</li>
+                <li>Aproveitamento integral dos alimentos</li>
+                <li>Conscientização do consumidor</li>
+                <li>Legislação que facilita doações</li>
+            </ul>
+            <a href="https://www.savefood.com/" target="_blank">Iniciativas globais contra desperdício</a>
         </div>
         
-        <div class="site-card" id="beneficios-card">
-            <h3>Benefícios do Morango para a Saúde</h3>
-            <p>Os morangos são ricos em nutrientes essenciais e compostos antioxidantes que trazem diversos benefícios à saúde.</p>
-            <p>Principais benefícios: melhora a saúde cardiovascular, fortalece o sistema imunológico, ajuda no controle do açúcar no sangue, possui ação anti-inflamatória e contribui para a saúde da pele.</p>
-            <a href="https://isaa22.github.io/agrinhoisa/" target="_blank">Benefícios na Healthline</a>
+        <div class="site-card" id="tecnologia-card">
+            <h3>Inovações Tecnológicas</h3>
+            <p>A tecnologia pode revolucionar a produção e distribuição de alimentos:</p>
+            <ul>
+                <li>Agricultura de precisão e IoT</li>
+                <li>Apps que conectam produtores a consumidores</li>
+                <li>Plataformas de doação de excedentes</li>
+                <li>Alimentos fortificados e biofortificados</li>
+                <li>Agricultura vertical e hidroponia urbana</li>
+                <li>Alternativas proteicas sustentáveis</li>
+            </ul>
+            <a href="https://agfundernews.com/" target="_blank">Tecnologias agrícolas inovadoras</a>
         </div>
         
-        <div class="site-card" id="variedades-card">
-            <h3>Variedades de Morango</h3>
-            <p>Existem diversas variedades de morango, cada uma com características específicas de sabor, tamanho, cor e resistência.</p>
-            <p>Algumas variedades populares: Albion (doce e firme), Camarosa (grande e vermelho intenso), Festival (sabor equilibrado), Oso Grande (muito grande), San Andreas (longa vida útil).</p>
-            <a href="https://isaa22.github.io/agrinhoisa/" target="_blank">Variedades no Radar Agrícola</a>
+        <div class="site-card" id="politicas-card">
+            <h3>Políticas Públicas Eficazes</h3>
+            <p>Políticas bem desenhadas são essenciais para combater a fome:</p>
+            <ul>
+                <li>Programas de transferência de renda condicionada</li>
+                <li>Restaurantes populares e cozinhas comunitárias</li>
+                <li>Compras governamentais da agricultura familiar</li>
+                <li>Educação nutricional nas escolas</li>
+                <li>Incentivos à produção local de alimentos</li>
+                <li>Regulação de preços de alimentos básicos</li>
+            </ul>
+            <a href="https://www.fao.org/brasil/pt/" target="_blank">Políticas da FAO para segurança alimentar</a>
+        </div>
+        
+        <div class="site-card" id="educacao-card">
+            <h3>Educação Alimentar e Nutricional</h3>
+            <p>Educação é fundamental para mudança de hábitos:</p>
+            <ul>
+                <li>Hortas escolares e comunitárias</li>
+                <li>Oficinas de aproveitamento integral</li>
+                <li>Programas de alimentação escolar</li>
+                <li>Conscientização sobre nutrição</li>
+                <li>Valorização da cultura alimentar local</li>
+                <li>Combate à desinformação nutricional</li>
+            </ul>
+            <a href="https://www.gloopan.com/" target="_blank">Educação nutricional global</a>
         </div>
     </div>
     
     <footer>
-        <p>© 2025 Do Campo à Mesa: A Jornada do Morango | Todos os direitos reservados à Isa22 & professor-rafael</p>
+        <p>© 2023 Fome Zero: Soluções Sustentáveis | Todos os direitos reservados</p>
     </footer>
 
     <script>
         // Comandos disponíveis
         const commands = {
-            'cultivo': {
-                card: 'cultivo-card',
-                message: 'Abrindo informações sobre cultivo de morangos...'
+            'agricultura': {
+                card: 'agricultura-card',
+                message: 'Carregando informações sobre agricultura sustentável...'
             },
-            'receitas': {
-                card: 'receitas-card',
-                message: 'Carregando receitas deliciosas com morango...'
+            'desperdicio': {
+                card: 'desperdicio-card',
+                message: 'Abrindo estratégias contra o desperdício de alimentos...'
             },
-            'beneficios': {
-                card: 'beneficios-card',
-                message: 'Mostrando benefícios do morango para saúde...'
+            'tecnologia': {
+                card: 'tecnologia-card',
+                message: 'Mostrando inovações tecnológicas para segurança alimentar...'
             },
-            'variedades': {
-                card: 'variedades-card',
-                message: 'Exibindo diferentes variedades de morango...'
+            'politicas': {
+                card: 'politicas-card',
+                message: 'Exibindo políticas públicas eficazes contra a fome...'
+            },
+            'educacao': {
+                card: 'educacao-card',
+                message: 'Carregando informações sobre educação alimentar...'
             },
             'limpar': {
                 action: function() {
@@ -292,10 +375,11 @@
             'ajuda': {
                 action: function() {
                     addTerminalOutput('<div>Comandos disponíveis:</div>');
-                    addTerminalOutput('<div>- cultivo: Técnicas de cultivo</div>');
-                    addTerminalOutput('<div>- receitas: Receitas com morango</div>');
-                    addTerminalOutput('<div>- beneficios: Benefícios para saúde</div>');
-                    addTerminalOutput('<div>- variedades: Tipos de morango</div>');
+                    addTerminalOutput('<div>- agricultura: Agricultura sustentável</div>');
+                    addTerminalOutput('<div>- desperdicio: Combate ao desperdício</div>');
+                    addTerminalOutput('<div>- tecnologia: Inovações tecnológicas</div>');
+                    addTerminalOutput('<div>- politicas: Políticas públicas</div>');
+                    addTerminalOutput('<div>- educacao: Educação alimentar</div>');
                     addTerminalOutput('<div>- limpar: Limpa o terminal</div>');
                 }
             }
@@ -308,7 +392,7 @@
                 const command = this.value.toLowerCase().trim();
                 this.value = '';
                 
-                addTerminalOutput(`<div><span style="color: #69F0AE;">></span> ${command}</div>`);
+                addTerminalOutput(`<div><span style="color: #81C784;">></span> ${command}</div>`);
                 
                 if (commands[command]) {
                     if (commands[command].card) {
